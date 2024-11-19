@@ -41,4 +41,4 @@ elif(a==5):
         print("Errore")
 else:
     print("Errore")
-print(f"Il credito scolastico del {a} è di:",c)
+print(f"Il credito scolastico del {a} anno è di:",c)

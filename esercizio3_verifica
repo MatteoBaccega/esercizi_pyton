@@ -1,0 +1,33 @@
+l1=float(input("Inserire la lunghezza del primo lacio, se il lancio è nullo inserire 0"))
+if(l1==0):
+    print("Il lancio è nullo")
+else:
+    s=l1
+    m=s
+    l2=float(input("Inserire la lunghezza del secondo lacio, se il lancio è nullo inserire 0"))
+    if(l2==0):
+        print("Il lancio è nullo")
+    else:
+        s=l1+l2
+        m=s/2
+    l3=float(input("Inserire la lunghezza del terzo lacio, se il lancio è nullo inserire 0"))
+    if(l2==0):
+        print("Il lancio è nullo")
+    else:
+        s=l1+l2+l3
+        m=s/3
+    l4=float(input("Inserire la lunghezza del quarto lacio, se il lancio è nullo inserire 0"))
+    if(l2==0):
+        print("Il lancio è nullo")
+    else:
+        s=l1+l2+l3+l4
+        m=s/4
+    l5=float(input("Inserire la lunghezza del quinto lacio, se il lancio è nullo inserire 0"))
+    if(l2==0):
+        print("Il lancio è nullo")
+    else:
+        s=l1+l2+l3+l4+l5
+        m=s/5
+print("La media dei lanci è di:",m)
+        
+    
