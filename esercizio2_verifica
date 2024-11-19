@@ -1,0 +1,44 @@
+a=int(input("Inserire l' anno scolastico di cui vuoi calcolare il credito scolastico es: 3,4,5"))
+m=float(input("Inserire la media dell' anno scolastico"))
+if(a==3):
+    if(m==6):
+        c="7-8"
+    elif(6<m and m<=7):
+        c="8-9"
+    elif(7<m and m<=8):
+        c="9-10"
+    elif(8<m and m<=9):
+        c="10-11"
+    elif(9<m and m<=10):
+        c="11-12"
+    else:
+        print("Errore")
+elif(a==4):
+    if(m==6):
+        c="8-9"
+    elif(6<m and m<=7):
+        c="9-10"
+    elif(7<m and m<=8):
+        c="10-11"
+    elif(8<m and m<=9):
+        c="11-12"
+    elif(9<m and m<=10):
+        c="12-13"
+    else:
+        print("Errore")
+elif(a==5):
+    if(m==6):
+        c="9-10"
+    elif(6<m and m<=7):
+        c="10-11"
+    elif(7<m and m<=8):
+        c="11-12"
+    elif(8<m and m<=9):
+        c="13-14"
+    elif(9<m and m<=10):
+        c="14-15"
+    else:
+        print("Errore")
+else:
+    print("Errore")
+print(f"Il credito scolastico del {a} è di:",c)
